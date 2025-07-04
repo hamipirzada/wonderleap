@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      {/* Royal Fixed Header */}
+      {/* WonderLeap Fixed Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-purple-900/95 via-indigo-900/95 to-purple-900/95 backdrop-blur-2xl border-b-2 border-gold-400/30 shadow-2xl">
         <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/10 via-purple-500/10 to-yellow-400/10"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 relative">
@@ -102,7 +102,7 @@ function App() {
                 className="relative bg-gradient-to-r from-yellow-400 via-yellow-500 to-amber-500 text-purple-900 px-8 py-3 rounded-full font-black text-lg hover:from-yellow-300 hover:via-yellow-400 hover:to-amber-400 transition-all duration-300 transform hover:scale-110 shadow-2xl hover:shadow-yellow-400/50 border-2 border-yellow-300/50"
               >
                 <Crown className="w-5 h-5 inline mr-2" />
-                Get Royal Access
+                Get Notified
                 <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent rounded-full"></div>
               </button>
             </div>
@@ -110,12 +110,12 @@ function App() {
         </div>
       </header>
 
-      {/* Royal Hero Section */}
+      {/* WonderLeap Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-purple-900 via-indigo-900 to-purple-900 pt-20 min-h-screen flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/5 via-purple-500/10 to-yellow-400/5"></div>
         <FloatingElements />
         
-        {/* Royal Particles */}
+        {/* WonderLeap Particles */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-20 left-10 w-6 h-6 bg-yellow-400/30 rounded-full animate-pulse shadow-lg shadow-yellow-400/50"></div>
           <div className="absolute top-40 right-20 w-4 h-4 bg-purple-400/40 rounded-full animate-bounce shadow-lg shadow-purple-400/50"></div>
@@ -124,12 +124,12 @@ function App() {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full z-10">
-          {/* Royal Coming Soon Badge */}
+          {/* WonderLeap Coming Soon Badge */}
           <AnimatedSection direction="down" className="text-center mb-8">
             <div className="inline-flex items-center space-x-4 bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-400 text-purple-900 px-12 py-6 rounded-full font-black text-2xl shadow-2xl transform hover:scale-110 transition-all duration-300 border-4 border-yellow-300/50 relative">
               <div className="absolute inset-0 bg-gradient-to-r from-white/30 to-transparent rounded-full"></div>
               <Crown className="w-8 h-8 animate-bounce relative z-10" />
-              <span className="tracking-wider relative z-10">ROYAL LAUNCH APPROACHING!</span>
+              <span className="tracking-wider relative z-10">COMING VERY SOON!</span>
               <Gem className="w-8 h-8 animate-bounce relative z-10" />
             </div>
           </AnimatedSection>
@@ -140,7 +140,7 @@ function App() {
                 <h1 className="text-6xl lg:text-8xl font-black text-transparent bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-300 bg-clip-text mb-6 leading-tight drop-shadow-2xl">
                   <span className="block animate-pulse">WonderLeap</span>
                   <span className="block bg-gradient-to-r from-purple-300 via-indigo-300 to-purple-300 bg-clip-text text-transparent text-5xl lg:text-6xl animate-bounce">
-                    Royal Edition
+                    Adventure Edition
                   </span>
                 </h1>
                 
@@ -149,20 +149,20 @@ function App() {
                     Discover. Leap. Succeed.
                   </p>
                   <p className="text-2xl text-white/95 leading-relaxed drop-shadow-md font-medium">
-                    Enter a majestic realm where career discovery becomes an epic royal adventure for young minds!
+                    Enter a majestic realm where career discovery becomes an epic adventure for young minds!
                   </p>
                 </div>
 
-                {/* Royal Launch Countdown */}
+                {/* WonderLeap Launch Countdown */}
                 <div className="bg-gradient-to-r from-purple-800/50 via-indigo-800/50 to-purple-800/50 backdrop-blur-2xl rounded-3xl p-8 mb-8 border-2 border-yellow-400/30 shadow-2xl transform hover:scale-105 transition-all duration-300 relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/10 to-purple-500/10 rounded-3xl"></div>
                   <div className="flex items-center justify-center space-x-4 mb-6 relative z-10">
                     <Calendar className="w-8 h-8 text-yellow-300 animate-bounce" />
-                    <span className="text-white font-black text-2xl tracking-wide">Royal Coronation Soon!</span>
+                    <span className="text-white font-black text-2xl tracking-wide">WonderLeap Launch Soon!</span>
                     <Diamond className="w-8 h-8 text-purple-300 animate-bounce delay-300" />
                   </div>
                   <p className="text-white/90 text-center text-lg font-bold relative z-10">
-                    👑 Claim your throne in the kingdom of career exploration 🏰
+                    👑 Claim your place in the kingdom of career exploration 🏰
                   </p>
                 </div>
 
@@ -173,7 +173,7 @@ function App() {
                   >
                     <div className="absolute inset-0 bg-gradient-to-r from-white/30 to-transparent rounded-full"></div>
                     <Crown className="w-8 h-8 relative z-10" />
-                    <span className="relative z-10">Join the Royal Court!</span>
+                    <span className="relative z-10">Join WonderLeap!</span>
                     <ArrowRight className="w-8 h-8 group-hover:translate-x-3 transition-transform relative z-10" />
                   </button>
                 </div>
@@ -185,14 +185,14 @@ function App() {
                 <div className="relative z-10 transform hover:scale-105 transition-all duration-500">
                   <img 
                     src="/IMG_3102 copy.jpeg" 
-                    alt="Wonda the Royal Explorer - WonderLeap Mascot" 
+                    alt="Wonda the WonderLeap Explorer - WonderLeap Mascot" 
                     className="w-full max-w-lg mx-auto rounded-3xl shadow-2xl border-4 border-yellow-400/50 filter brightness-110 contrast-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 to-purple-500/20 rounded-3xl"></div>
                 </div>
                 <div className="absolute -inset-8 bg-gradient-to-r from-yellow-400/30 via-purple-500/30 to-yellow-400/30 rounded-3xl blur-3xl opacity-60 animate-pulse"></div>
                 
-                {/* Royal Floating Elements */}
+                {/* WonderLeap Floating Elements */}
                 <div className="absolute -top-6 -right-6 bg-gradient-to-r from-yellow-400 to-amber-500 text-purple-900 p-4 rounded-full shadow-2xl animate-bounce border-4 border-yellow-300/50">
                   <Crown className="w-8 h-8" />
                 </div>
@@ -207,7 +207,7 @@ function App() {
           </div>
         </div>
 
-        {/* Royal Wave Separator */}
+        {/* WonderLeap Wave Separator */}
         <div className="absolute bottom-0 left-0 right-0 z-0">
           <svg className="w-full h-32 fill-current text-slate-900" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <defs>
@@ -224,7 +224,7 @@ function App() {
         </div>
       </section>
 
-      {/* Royal Introduction */}
+      {/* WonderLeap Introduction */}
       <section id="about" className="py-20 bg-gradient-to-br from-slate-900 via-gray-900 to-slate-900 relative">
         <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/5 via-purple-500/10 to-yellow-400/5"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -232,18 +232,18 @@ function App() {
             <div className="inline-flex items-center space-x-3 mb-8">
               <Crown className="w-12 h-12 text-yellow-400" />
               <h2 className="text-5xl lg:text-6xl font-black bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-300 bg-clip-text text-transparent drop-shadow-lg">
-                Royal Career Academy
+                WonderLeap Career Academy
               </h2>
               <Crown className="w-12 h-12 text-yellow-400" />
             </div>
             <p className="text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed font-medium">
-              WonderLeap is a majestic learning kingdom where young royalty discover their destined careers through enchanted adventures and royal quests.
+              WonderLeap is a majestic learning kingdom where young explorers discover their destined careers through enchanted adventures and epic quests.
             </p>
           </AnimatedSection>
         </div>
       </section>
 
-      {/* Royal Key Highlights */}
+      {/* WonderLeap Key Highlights */}
       <section className="py-20 bg-gradient-to-br from-slate-800 via-purple-900 to-slate-800 relative">
         <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/5 via-purple-500/10 to-yellow-400/5"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -254,8 +254,8 @@ function App() {
                 <div className="w-20 h-20 bg-gradient-to-br from-yellow-400 to-amber-500 rounded-3xl flex items-center justify-center mx-auto mb-6 group-hover:scale-125 transition-transform duration-300 shadow-2xl border-2 border-yellow-300/50 relative z-10">
                   <Gamepad2 className="w-10 h-10 text-purple-900" />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 relative z-10">Royal Gaming Quests</h3>
-                <p className="text-white/80 text-lg relative z-10">Embark on epic Minecraft adventures in our royal career kingdoms.</p>
+                <h3 className="text-2xl font-bold text-white mb-4 relative z-10">WonderLeap Gaming Quests</h3>
+                <p className="text-white/80 text-lg relative z-10">Embark on epic Minecraft adventures in our career kingdoms.</p>
               </div>
             </AnimatedSection>
 
@@ -266,7 +266,7 @@ function App() {
                   <Lightbulb className="w-10 h-10 text-yellow-300" />
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-4 relative z-10">Enchanted Learning Realms</h3>
-                <p className="text-white/80 text-lg relative z-10">Develop royal skills through magical challenges and mystical activities.</p>
+                <p className="text-white/80 text-lg relative z-10">Develop skills through magical challenges and mystical activities.</p>
               </div>
             </AnimatedSection>
 
@@ -277,7 +277,7 @@ function App() {
                   <Globe className="w-10 h-10 text-purple-900" />
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-4 relative z-10">Kingdom Career Exploration</h3>
-                <p className="text-white/80 text-lg relative z-10">Discover noble professions explained for young royal minds.</p>
+                <p className="text-white/80 text-lg relative z-10">Discover noble professions explained for young minds.</p>
               </div>
             </AnimatedSection>
 
@@ -287,15 +287,15 @@ function App() {
                 <div className="w-20 h-20 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-3xl flex items-center justify-center mx-auto mb-6 group-hover:scale-125 transition-transform duration-300 shadow-2xl border-2 border-emerald-300/50 relative z-10">
                   <BookOpen className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 relative z-10">Royal Curriculum</h3>
-                <p className="text-white/80 text-lg relative z-10">Built around future royal skills and noble career development.</p>
+                <h3 className="text-2xl font-bold text-white mb-4 relative z-10">WonderLeap Curriculum</h3>
+                <p className="text-white/80 text-lg relative z-10">Built around future skills and career development.</p>
               </div>
             </AnimatedSection>
           </div>
         </div>
       </section>
 
-      {/* Royal Mission Section */}
+      {/* WonderLeap Mission Section */}
       <section id="mission" className="py-20 bg-gradient-to-br from-purple-900 via-indigo-900 to-purple-900 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/5 via-purple-500/10 to-yellow-400/5"></div>
         <FloatingElements />
@@ -306,37 +306,37 @@ function App() {
                 <div className="flex items-center space-x-4 mb-8">
                   <Crown className="w-12 h-12 text-yellow-400" />
                   <h2 className="text-5xl lg:text-6xl font-black text-transparent bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-300 bg-clip-text drop-shadow-2xl">
-                    Royal Mission
+                    WonderLeap Mission
                   </h2>
                 </div>
                 <div className="space-y-6 text-white/95 text-xl leading-relaxed font-medium">
                   <p className="drop-shadow-lg">
-                    WonderLeap's royal mission is to establish the grandest kingdom of early career exploration, where every young soul discovers their noble calling through majestic adventures.
+                    WonderLeap's mission is to establish the grandest kingdom of early career exploration, where every young soul discovers their calling through majestic adventures.
                   </p>
                   <p className="drop-shadow-lg">
-                    By transforming career discovery into an enchanted royal quest within Minecraft realms, WonderLeap ignites curiosity, builds confidence, and helps children envision a future filled with infinite royal possibilities.
+                    By transforming career discovery into an enchanted quest within Minecraft realms, WonderLeap ignites curiosity, builds confidence, and helps children envision a future filled with infinite possibilities.
                   </p>
                 </div>
                 <div className="mt-8 grid grid-cols-2 gap-6">
                   <div className="flex items-center space-x-3 bg-gradient-to-r from-purple-800/50 to-indigo-800/50 backdrop-blur-2xl rounded-2xl p-4 border-2 border-yellow-400/30 relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/10 to-purple-500/10 rounded-2xl"></div>
                     <Heart className="w-8 h-8 text-yellow-300 relative z-10" />
-                    <span className="text-white font-bold text-lg relative z-10">Royal Inclusivity</span>
+                    <span className="text-white font-bold text-lg relative z-10">Inclusivity</span>
                   </div>
                   <div className="flex items-center space-x-3 bg-gradient-to-r from-indigo-800/50 to-purple-800/50 backdrop-blur-2xl rounded-2xl p-4 border-2 border-purple-400/30 relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-purple-400/10 to-indigo-500/10 rounded-2xl"></div>
                     <Rocket className="w-8 h-8 text-purple-300 relative z-10" />
-                    <span className="text-white font-bold text-lg relative z-10">Future Nobility</span>
+                    <span className="text-white font-bold text-lg relative z-10">Future Ready</span>
                   </div>
                   <div className="flex items-center space-x-3 bg-gradient-to-r from-amber-800/50 to-yellow-800/50 backdrop-blur-2xl rounded-2xl p-4 border-2 border-amber-400/30 relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-amber-400/10 to-yellow-500/10 rounded-2xl"></div>
                     <Users className="w-8 h-8 text-amber-300 relative z-10" />
-                    <span className="text-white font-bold text-lg relative z-10">Global Kingdom</span>
+                    <span className="text-white font-bold text-lg relative z-10">Global Reach</span>
                   </div>
                   <div className="flex items-center space-x-3 bg-gradient-to-r from-emerald-800/50 to-teal-800/50 backdrop-blur-2xl rounded-2xl p-4 border-2 border-emerald-400/30 relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/10 to-teal-500/10 rounded-2xl"></div>
                     <Target className="w-8 h-8 text-emerald-300 relative z-10" />
-                    <span className="text-white font-bold text-lg relative z-10">Early Coronation</span>
+                    <span className="text-white font-bold text-lg relative z-10">Early Start</span>
                   </div>
                 </div>
               </div>
@@ -347,7 +347,7 @@ function App() {
                 <div className="relative z-10 transform hover:scale-105 transition-all duration-500">
                   <img 
                     src="/IMG_3138.jpeg" 
-                    alt="Wonda the Royal Explorer" 
+                    alt="Wonda the WonderLeap Explorer" 
                     className="w-full max-w-md mx-auto rounded-3xl shadow-2xl border-4 border-yellow-400/50 filter brightness-110 contrast-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 to-purple-500/20 rounded-3xl"></div>
@@ -359,7 +359,7 @@ function App() {
         </div>
       </section>
 
-      {/* Royal Challenge Section */}
+      {/* WonderLeap Challenge Section */}
       <section id="challenge" className="py-20 bg-gradient-to-br from-slate-900 via-red-900 to-slate-900 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 via-orange-500/15 to-red-500/10"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -367,14 +367,14 @@ function App() {
             <div className="inline-flex items-center space-x-3 bg-gradient-to-r from-red-600 to-orange-600 text-white px-8 py-4 rounded-full font-bold text-xl shadow-2xl mb-8 border-2 border-red-400/50 relative">
               <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent rounded-full"></div>
               <AlertTriangle className="w-8 h-8 relative z-10" />
-              <span className="relative z-10">ROYAL DECREE: URGENT CHALLENGE</span>
+              <span className="relative z-10">WONDERLEAP DECREE: URGENT CHALLENGE</span>
               <AlertTriangle className="w-8 h-8 relative z-10" />
             </div>
             <h2 className="text-5xl lg:text-6xl font-black bg-gradient-to-r from-red-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent mb-8 drop-shadow-lg">
-              The Royal Challenge We're Conquering
+              The Challenge We're Conquering
             </h2>
             <p className="text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed font-medium">
-              A critical gap in the royal education system that affects millions of young nobles worldwide
+              A critical gap in the education system that affects millions of young minds worldwide
             </p>
           </AnimatedSection>
           
@@ -387,24 +387,24 @@ function App() {
                     <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-orange-500 rounded-2xl flex items-center justify-center shadow-xl border-2 border-red-300/50">
                       <AlertTriangle className="w-8 h-8 text-white" />
                     </div>
-                    <h3 className="text-3xl font-black text-white">The Royal Crisis</h3>
+                    <h3 className="text-3xl font-black text-white">The Crisis</h3>
                   </div>
                   <ul className="space-y-6 text-white/90 relative z-10">
                     <li className="flex items-start space-x-4 bg-gradient-to-r from-red-700/30 to-orange-700/30 p-4 rounded-2xl shadow-lg border border-red-400/30">
                       <div className="w-4 h-4 bg-red-400 rounded-full mt-2 flex-shrink-0 animate-pulse shadow-lg shadow-red-400/50"></div>
-                      <span className="text-lg font-semibold">Young nobles form career dreams as early as ages 4-7</span>
+                      <span className="text-lg font-semibold">Young minds form career dreams as early as ages 4-7</span>
                     </li>
                     <li className="flex items-start space-x-4 bg-gradient-to-r from-orange-700/30 to-red-700/30 p-4 rounded-2xl shadow-lg border border-orange-400/30">
                       <div className="w-4 h-4 bg-orange-400 rounded-full mt-2 flex-shrink-0 animate-pulse shadow-lg shadow-orange-400/50"></div>
-                      <span className="text-lg font-semibold">By age 7, many limit their royal potential due to stereotypes</span>
+                      <span className="text-lg font-semibold">By age 7, many limit their potential due to stereotypes</span>
                     </li>
                     <li className="flex items-start space-x-4 bg-gradient-to-r from-red-700/30 to-orange-700/30 p-4 rounded-2xl shadow-lg border border-red-400/30">
                       <div className="w-4 h-4 bg-red-400 rounded-full mt-2 flex-shrink-0 animate-pulse shadow-lg shadow-red-400/50"></div>
-                      <span className="text-lg font-semibold">Most royal guidance only begins in secondary kingdoms</span>
+                      <span className="text-lg font-semibold">Most career guidance only begins in secondary schools</span>
                     </li>
                     <li className="flex items-start space-x-4 bg-gradient-to-r from-orange-700/30 to-red-700/30 p-4 rounded-2xl shadow-lg border border-orange-400/30">
                       <div className="w-4 h-4 bg-orange-400 rounded-full mt-2 flex-shrink-0 animate-pulse shadow-lg shadow-orange-400/50"></div>
-                      <span className="text-lg font-semibold">Limited royal role models and career kingdom exposure</span>
+                      <span className="text-lg font-semibold">Limited role models and career exposure</span>
                     </li>
                   </ul>
                 </div>
@@ -419,24 +419,24 @@ function App() {
                     <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl flex items-center justify-center shadow-xl border-2 border-emerald-300/50">
                       <Shield className="w-8 h-8 text-white" />
                     </div>
-                    <h3 className="text-3xl font-black text-white">Our Royal Solution</h3>
+                    <h3 className="text-3xl font-black text-white">Our WonderLeap Solution</h3>
                   </div>
                   <ul className="space-y-6 text-white/90 relative z-10">
                     <li className="flex items-start space-x-4 bg-gradient-to-r from-emerald-700/30 to-teal-700/30 p-4 rounded-2xl shadow-lg border border-emerald-400/30">
                       <CheckCircle className="w-6 h-6 text-emerald-400 mt-1 flex-shrink-0 animate-pulse shadow-lg shadow-emerald-400/50" />
-                      <span className="text-lg font-semibold">Immersive Minecraft Royal Academy for young nobles</span>
+                      <span className="text-lg font-semibold">Immersive Minecraft Academy for young explorers</span>
                     </li>
                     <li className="flex items-start space-x-4 bg-gradient-to-r from-teal-700/30 to-emerald-700/30 p-4 rounded-2xl shadow-lg border border-teal-400/30">
                       <CheckCircle className="w-6 h-6 text-teal-400 mt-1 flex-shrink-0 animate-pulse shadow-lg shadow-teal-400/50" />
-                      <span className="text-lg font-semibold">AI-guided royal advisors for personalized career quests</span>
+                      <span className="text-lg font-semibold">AI-guided advisors for personalized career quests</span>
                     </li>
                     <li className="flex items-start space-x-4 bg-gradient-to-r from-emerald-700/30 to-teal-700/30 p-4 rounded-2xl shadow-lg border border-emerald-400/30">
                       <CheckCircle className="w-6 h-6 text-emerald-400 mt-1 flex-shrink-0 animate-pulse shadow-lg shadow-emerald-400/50" />
-                      <span className="text-lg font-semibold">Inclusive royal court for all learning nobles</span>
+                      <span className="text-lg font-semibold">Inclusive platform for all learning styles</span>
                     </li>
                     <li className="flex items-start space-x-4 bg-gradient-to-r from-teal-700/30 to-emerald-700/30 p-4 rounded-2xl shadow-lg border border-teal-400/30">
                       <CheckCircle className="w-6 h-6 text-teal-400 mt-1 flex-shrink-0 animate-pulse shadow-lg shadow-teal-400/50" />
-                      <span className="text-lg font-semibold">Royal curriculum aligned and globally scalable</span>
+                      <span className="text-lg font-semibold">Curriculum aligned and globally scalable</span>
                     </li>
                   </ul>
                 </div>
@@ -444,23 +444,23 @@ function App() {
             </AnimatedSection>
           </div>
 
-          {/* Royal Impact Statistics */}
+          {/* WonderLeap Impact Statistics */}
           <AnimatedSection direction="up" delay={600} className="mt-16">
             <div className="bg-gradient-to-r from-purple-800/50 via-indigo-800/50 to-purple-800/50 rounded-3xl p-10 text-center shadow-2xl border-4 border-yellow-400/30 backdrop-blur-xl relative">
               <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/10 to-purple-500/10 rounded-3xl"></div>
-              <h3 className="text-3xl font-black text-white mb-8 drop-shadow-lg relative z-10">Why This Royal Mission Matters</h3>
+              <h3 className="text-3xl font-black text-white mb-8 drop-shadow-lg relative z-10">Why This WonderLeap Mission Matters</h3>
               <div className="grid md:grid-cols-3 gap-8 relative z-10">
                 <div className="bg-gradient-to-r from-yellow-800/30 to-amber-800/30 rounded-2xl p-6 border-2 border-yellow-400/30">
                   <div className="text-4xl font-black text-yellow-300 mb-2">4-7</div>
-                  <div className="text-white font-semibold">Years when royal aspirations form</div>
+                  <div className="text-white font-semibold">Years when aspirations form</div>
                 </div>
                 <div className="bg-gradient-to-r from-purple-800/30 to-indigo-800/30 rounded-2xl p-6 border-2 border-purple-400/30">
                   <div className="text-4xl font-black text-purple-300 mb-2">70%</div>
-                  <div className="text-white font-semibold">Of young nobles limit royal options by age 7</div>
+                  <div className="text-white font-semibold">Of young minds limit options by age 7</div>
                 </div>
                 <div className="bg-gradient-to-r from-emerald-800/30 to-teal-800/30 rounded-2xl p-6 border-2 border-emerald-400/30">
                   <div className="text-4xl font-black text-emerald-300 mb-2">0</div>
-                  <div className="text-white font-semibold">Early royal career academies like ours</div>
+                  <div className="text-white font-semibold">Early career academies like WonderLeap</div>
                 </div>
               </div>
             </div>
@@ -468,7 +468,7 @@ function App() {
         </div>
       </section>
 
-      {/* Royal Founder Section */}
+      {/* WonderLeap Founder Section */}
       <section id="founder" className="py-20 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative">
         <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/5 via-purple-500/10 to-yellow-400/5"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -476,7 +476,7 @@ function App() {
             <div className="flex items-center justify-center space-x-4 mb-8">
               <Crown className="w-12 h-12 text-yellow-400" />
               <h2 className="text-5xl lg:text-6xl font-black bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-300 bg-clip-text text-transparent drop-shadow-lg">
-                Meet Our Royal Founder
+                Meet Our WonderLeap Founder
               </h2>
               <Crown className="w-12 h-12 text-yellow-400" />
             </div>
@@ -488,14 +488,14 @@ function App() {
                 <div className="relative z-10 transform hover:scale-105 transition-all duration-500">
                   <img 
                     src="/IMG_3486.jpeg" 
-                    alt="Finneen Bradley - Royal Founder of WonderLeap" 
+                    alt="Finneen Bradley - Founder of WonderLeap" 
                     className="w-full max-w-md mx-auto rounded-3xl shadow-2xl border-4 border-yellow-400/50 filter brightness-110 contrast-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 to-purple-500/20 rounded-3xl"></div>
                 </div>
                 <div className="absolute -inset-6 bg-gradient-to-r from-yellow-400/30 via-purple-500/30 to-yellow-400/30 rounded-3xl blur-2xl opacity-60 animate-pulse"></div>
                 
-                {/* Royal Achievement Badges */}
+                {/* WonderLeap Achievement Badges */}
                 <div className="absolute -top-4 -right-4 bg-gradient-to-r from-yellow-400 to-amber-500 text-purple-900 p-3 rounded-full shadow-xl animate-bounce border-2 border-yellow-300/50">
                   <Award className="w-6 h-6" />
                 </div>
@@ -508,24 +508,24 @@ function App() {
             <AnimatedSection direction="right" delay={300}>
               <div className="space-y-6">
                 <h3 className="text-4xl font-black text-white">Finneen Bradley</h3>
-                <p className="text-2xl text-yellow-400 font-bold">Royal Founding Director, Finnesse Careers and Empowerment</p>
+                <p className="text-2xl text-yellow-400 font-bold">Founding Director, Finnesse Careers and Empowerment</p>
                 
                 <div className="space-y-4 text-white/90 leading-relaxed text-lg">
                   <p>
-                    As a distinguished graduate of Ulster University Magee campus with a first-class Business Studies degree and a distinction in a Level 7 Postgraduate Qualification in Career Guidance (QCG), I have combined academic excellence with decades of royal service empowering young minds.
+                    As a distinguished graduate of Ulster University Magee campus with a first-class Business Studies degree and a distinction in a Level 7 Postgraduate Qualification in Career Guidance (QCG), I have combined academic excellence with decades of service empowering young minds.
                   </p>
                   <p>
-                    With decades of experience as a royal careers specialist, youth mentor, and social enterprise leader, I've dedicated my reign to helping young nobles explore new possibilities with confidence. As founder of Finnesse Careers and Empowerment, I have delivered award-winning royal programmes across the UK and Ireland and was the first ever finalist from Northern Ireland in the UK Careers Impact Award.
+                    With decades of experience as a careers specialist, youth mentor, and social enterprise leader, I've dedicated my career to helping young people explore new possibilities with confidence. As founder of Finnesse Careers and Empowerment, I have delivered award-winning programmes across the UK and Ireland and was the first ever finalist from Northern Ireland in the UK Careers Impact Award.
                   </p>
                   <p>
-                    My royal work has reached thousands of learners and educators. This unique blend of expertise and visionary leadership led me to create WonderLeap, a majestic yet powerful tool designed to inspire future generations of nobles.
+                    My work has reached thousands of learners and educators. This unique blend of expertise and visionary leadership led me to create WonderLeap, a powerful yet accessible tool designed to inspire future generations.
                   </p>
                 </div>
 
                 <div className="bg-gradient-to-br from-purple-800/50 via-indigo-800/50 to-purple-800/50 p-8 rounded-3xl border-2 border-yellow-400/30 shadow-xl backdrop-blur-xl relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/10 to-purple-500/10 rounded-3xl"></div>
                   <p className="text-white/90 italic text-lg font-medium leading-relaxed relative z-10">
-                    "I'm thrilled to launch WonderLeap and introduce Wonda, our inspiring royal mascot who embodies curiosity and adventure. Together, WonderLeap and Wonda aim to create a royal movement where every child feels seen, inspired, and ready to explore their noble future fearlessly."
+                    "I'm thrilled to launch WonderLeap and introduce Wonda, our inspiring mascot who embodies curiosity and adventure. Together, WonderLeap and Wonda aim to create a movement where every child feels seen, inspired, and ready to explore their future fearlessly."
                   </p>
                 </div>
               </div>
@@ -534,7 +534,7 @@ function App() {
         </div>
       </section>
 
-      {/* Royal Email Signup */}
+      {/* WonderLeap Email Signup */}
       <section id="signup" className="py-20 bg-gradient-to-br from-purple-900 via-indigo-900 to-purple-900 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/5 via-purple-500/10 to-yellow-400/5"></div>
         <FloatingElements />
@@ -546,16 +546,16 @@ function App() {
                 <div className="inline-flex items-center space-x-4 bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-400 text-purple-900 px-12 py-6 rounded-full font-black text-2xl shadow-2xl mb-8 border-4 border-yellow-300/50 relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-white/30 to-transparent rounded-full"></div>
                   <Crown className="w-8 h-8 animate-bounce relative z-10" />
-                  <span className="relative z-10">ROYAL CORONATION APPROACHING!</span>
+                  <span className="relative z-10">WONDERLEAP LAUNCH APPROACHING!</span>
                   <Gem className="w-8 h-8 animate-bounce relative z-10" />
                 </div>
               </div>
               
               <h2 className="text-5xl lg:text-6xl font-black text-transparent bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-300 bg-clip-text mb-8 drop-shadow-2xl relative z-10">
-                Join the Royal Court!
+                Join WonderLeap!
               </h2>
               <p className="text-2xl text-white/95 mb-8 leading-relaxed font-semibold drop-shadow-lg relative z-10">
-                Be the first to meet Wonda, explore our Royal Wonder Kingdoms, and unlock a future of noble possibilities.
+                Be the first to meet Wonda, explore our Wonder Kingdoms, and unlock a future of possibilities.
               </p>
               
               {!isSubscribed ? (
@@ -565,7 +565,7 @@ function App() {
                       type="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="Enter your royal email address"
+                      placeholder="Enter your email address"
                       className="flex-1 px-8 py-5 rounded-full text-purple-900 placeholder-purple-600 focus:outline-none focus:ring-4 focus:ring-yellow-400/50 text-xl font-semibold shadow-xl border-2 border-yellow-400/30 bg-gradient-to-r from-white to-yellow-50"
                       required
                     />
@@ -574,11 +574,11 @@ function App() {
                       className="relative bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-400 hover:from-yellow-300 hover:via-amber-400 hover:to-yellow-300 text-purple-900 px-10 py-5 rounded-full font-black text-xl transition-all duration-300 transform hover:scale-110 shadow-2xl hover:shadow-yellow-400/50 whitespace-nowrap border-4 border-yellow-300/50"
                     >
                       <div className="absolute inset-0 bg-gradient-to-r from-white/30 to-transparent rounded-full"></div>
-                      <span className="relative z-10">Join Court!</span>
+                      <span className="relative z-10">Join Now!</span>
                     </button>
                   </div>
                   
-                  {/* Royal Launch Day Text */}
+                  {/* WonderLeap Launch Day Text */}
                   <div className="mt-8 bg-gradient-to-r from-yellow-400/20 via-amber-500/20 to-yellow-400/20 backdrop-blur-2xl rounded-3xl p-6 border-2 border-yellow-400/30 shadow-2xl">
                     <div className="flex items-center justify-center space-x-3 mb-3">
                       <Users className="w-10 h-10 text-yellow-300 animate-bounce" />
@@ -586,7 +586,7 @@ function App() {
                       <Users className="w-10 h-10 text-yellow-300 animate-bounce delay-300" />
                     </div>
                     <p className="text-white text-center text-3xl font-black tracking-wide drop-shadow-2xl animate-pulse">
-                      👑 Join thousands of nobles awaiting coronation day! 🏰
+                      👑 Join thousands awaiting WonderLeap launch day! 🏰
                     </p>
                     <div className="flex items-center justify-center space-x-3 mt-4">
                       <div className="w-4 h-4 bg-yellow-400 rounded-full animate-bounce shadow-lg shadow-yellow-400/50"></div>
@@ -600,9 +600,9 @@ function App() {
                 <div className="max-w-md mx-auto relative z-10">
                   <div className="bg-gradient-to-r from-emerald-600/30 via-teal-600/30 to-emerald-600/30 border-4 border-emerald-400/50 rounded-3xl p-8 backdrop-blur-2xl">
                     <CheckCircle className="w-16 h-16 text-emerald-400 mx-auto mb-6 animate-bounce" />
-                    <h3 className="text-3xl font-black text-white mb-4">Welcome to the Royal Court!</h3>
+                    <h3 className="text-3xl font-black text-white mb-4">Welcome to WonderLeap!</h3>
                     <p className="text-white/95 text-xl font-semibold">
-                      Your royal invitation has been sent! We'll notify you as soon as WonderLeap's kingdom opens.
+                      Your invitation has been sent! We'll notify you as soon as WonderLeap's kingdom opens.
                     </p>
                   </div>
                 </div>
@@ -612,7 +612,7 @@ function App() {
         </div>
       </section>
 
-      {/* Royal Contact & Footer */}
+      {/* WonderLeap Contact & Footer */}
       <footer id="contact" className="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white py-16 relative">
         <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/5 via-purple-500/10 to-yellow-400/5"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -621,21 +621,21 @@ function App() {
               <div className="relative">
                 <img 
                   src="/IMG_3141[57].jpeg" 
-                  alt="WonderLeap Royal Logo" 
+                  alt="WonderLeap Logo" 
                   className="h-16 w-auto mb-6 drop-shadow-2xl filter brightness-110 contrast-110"
                 />
                 <div className="absolute -inset-2 bg-gradient-to-r from-yellow-400/20 to-purple-500/20 rounded-lg blur-lg"></div>
               </div>
               <p className="text-white/90 text-xl leading-relaxed mb-6 font-medium">
-                Championing early royal career exploration by opening up the kingdom of work to every young noble through immersive, majestic, and meaningful learning adventures.
+                Championing early career exploration by opening up the kingdom of work to every young mind through immersive, majestic, and meaningful learning adventures.
               </p>
             </AnimatedSection>
             
             <AnimatedSection direction="right" delay={200}>
-              <h4 className="text-2xl font-bold mb-6 text-yellow-400">Royal Contact</h4>
+              <h4 className="text-2xl font-bold mb-6 text-yellow-400">WonderLeap Contact</h4>
               <div className="space-y-4 text-white/90 text-lg">
                 <p className="font-semibold">Finneen Bradley</p>
-                <p>Royal Founding Director</p>
+                <p>Founding Director</p>
                 <p>📞 07936 777312</p>
                 <p>📧 info@finnesse.co.uk</p>
                 <p>🌐 www.finnesse.co.uk</p>
@@ -643,19 +643,19 @@ function App() {
             </AnimatedSection>
             
             <AnimatedSection direction="right" delay={400}>
-              <h4 className="text-2xl font-bold mb-6 text-purple-400">Join the Kingdom</h4>
+              <h4 className="text-2xl font-bold mb-6 text-purple-400">Join WonderLeap</h4>
               <div className="space-y-4">
                 <button className="block w-full text-left text-white/80 hover:text-yellow-300 transition-colors text-lg font-medium hover:scale-105 transform duration-200">
-                  Royal School Partnerships
+                  School Partnerships
                 </button>
                 <button 
                   onClick={() => scrollToSection('signup')}
                   className="block w-full text-left text-white/80 hover:text-yellow-300 transition-colors text-lg font-medium hover:scale-105 transform duration-200"
                 >
-                  Royal Newsletter
+                  WonderLeap Newsletter
                 </button>
                 <button className="block w-full text-left text-white/80 hover:text-yellow-300 transition-colors text-lg font-medium hover:scale-105 transform duration-200">
-                  Noble Partner Enquiries
+                  Partner Enquiries
                 </button>
               </div>
             </AnimatedSection>
@@ -663,7 +663,7 @@ function App() {
           
           <div className="border-t border-yellow-400/30 pt-8 text-center">
             <p className="text-white/80 text-lg">
-              © 2025 WonderLeap Royal Academy. All rights reserved. | Discover, Leap and Succeed
+              © 2025 WonderLeap Academy. All rights reserved. | Discover, Leap and Succeed
             </p>
           </div>
         </div>
