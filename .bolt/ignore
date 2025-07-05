@@ -1,0 +1,8 @@
+node_modules/
+dist/
+public/**
+src/**/*.jpeg
+src/**/*.jpg
+*.log
+.env
+README.md
